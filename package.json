@@ -1,0 +1,17 @@
+{
+  "name": "minilisp",
+  "version": "1.0.0",
+  "description": "A tiny lisp transpiler to and in javascript",
+  "main": "tokenizer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcus Orochena",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "bin": {
+    "ml2js": "transpile.js"
+  }
+}
